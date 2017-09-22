@@ -1,7 +1,7 @@
 import json
 from sys import argv
 
-def load_data(filepath):
+def load_json_file(filepath):
     with open(filepath, 'r', encoding="utf8") as input_file:
         json_data = json.load(input_file)
     return json_data
